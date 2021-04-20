@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-@include('page.head');
+@include('page.head')
 <!-- inject:css -->
 <!-- endinject -->
 <script type="text/javascript">
     window.meta = <?php echo json_encode($meta, JSON_UNESCAPED_UNICODE); ?>;
-    window.posts = <?php echo json_encode($posts, JSON_UNESCAPED_UNICODE); ?>;
-    window.notices = <?php echo json_encode($notices, JSON_UNESCAPED_UNICODE); ?>;
     window.isMobile = <?php echo $isMobile ? 'true' : 'false'; ?>;
 </script>
 </head>

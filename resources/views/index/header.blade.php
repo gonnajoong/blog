@@ -1,6 +1,6 @@
 <header id="gjHeaderWrap">
     <div class="gj-container">
-        <h1 id="gjLogo"><span>함소아</span></h1>
+        <h1 id="gjLogo"><span>K G J</span></h1>
         <nav>
             <ul>
                 <li class="gj-nav-link-item">
