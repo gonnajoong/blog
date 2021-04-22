@@ -33,6 +33,7 @@
         "node-cmd": "^3.0.0",
         "node-cron": "^2.0.3",
         "node-sass": "^4.9.3",
+        "ncp": "^2.0.0",
         "sass-loader": "^7.1.0",
         "slick-carousel": "^1.8.1",
         "style-loader": "^0.23.0",
