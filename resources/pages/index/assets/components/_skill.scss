@@ -1,0 +1,44 @@
+.gj-main-layout {
+    &.gj-skill {
+        width: 100%;
+        min-height: 100%;
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 60px 0;
+
+        .grid {
+            position: relative;
+
+            .gj-grid-wrap {
+                display: inline-flex;
+                flex-wrap: wrap;
+                align-items: center;
+
+                li {
+                    width: 25%;
+
+                    span {
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 24px;
+
+                        img {
+                            display: inline-block;
+                            width: 150px;
+                            height: 150px;
+                            background-color: lightgray;
+                            border-radius: 8px;
+
+                            & + p {
+                                width: 100%;
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

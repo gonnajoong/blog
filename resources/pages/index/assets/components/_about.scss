@@ -1,0 +1,104 @@
+.gj-main-layout {
+    &.gj-about {
+        width: 100%;
+        min-height: 100%;
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 60px 0;
+
+        h1 {
+            display: inline-block;
+            width: 100%;
+            font-family: 'Staatliches', sans-serif;
+            font-size: 200px;
+            margin-bottom: 100px;
+            text-align: center;
+
+            p {
+                display: inline-block;
+                font-size: 24px;
+                font-weight: bold;
+                text-align: right;
+                line-height: 1.6;
+
+                & > span {
+                    padding-right: 100px;
+                }
+            }
+        }
+
+        .gj-about-list {
+            display: inline-block;
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            margin-bottom: 32px;
+            padding: 0 16px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            h2 {
+                position: relative;
+                font-size: 26px;
+                margin-bottom: 54px;
+                text-align: left;
+            }
+
+            & > li {
+                display: inline-flex;
+                width: 100%;
+                font-size: 20px;
+                justify-content: space-between;
+
+                &.gj-split-wrap {
+                    text-align: left;
+
+                    & > span {
+                        width: 50%;
+                        height: 500px;
+
+                        &.gj-split-text-wrap {
+                            padding-top: 44px;
+                        }
+
+                        &.gj-split-padding {
+                            padding-left: 24px;
+                        }
+
+                        h2 {
+                            font-size: 36px;
+                            margin-bottom: 22px;
+
+                            & + span {
+                                display: inline-block;
+                                margin-bottom: 16px;
+                            }
+                        }
+
+                        .gj-project-list {
+                            margin-top: 16px;
+
+                            li {
+                                line-height: 1.6;
+                                margin-bottom: 16px;
+
+                                &:last-of-type {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .gj-split-image-wrap {
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}

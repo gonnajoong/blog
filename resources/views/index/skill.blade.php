@@ -1,5 +1,5 @@
-<article class="gj-about-list gj-skill">
-    <ul class="gj-about-list grid">
+<article class="gj-main-layout gj-skill">
+    <ul class="grid">
         <h2>기술</h2>
         <li>
             <ul class="gj-grid-wrap">
