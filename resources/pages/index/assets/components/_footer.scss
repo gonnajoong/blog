@@ -1,0 +1,23 @@
+.gj-footer-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+
+    & address {
+        width: 100%;
+        display: block;
+        max-width: 1600px;
+        line-height: 1;
+        padding: 0 16px;
+
+        span {
+            margin-bottom: 8px;
+            display: inline-block;
+            font-style: normal;
+
+            &:last-of-type {
+                margin: 0;
+            }
+        }
+    }
+}
