@@ -77,27 +77,38 @@ return [
     ],
     'skills' => [
         'skill' => [[
-            'name' => 'HTML 5'
+            'name' => 'HTML 5',
+            'src' => '/images/icons/html.jpg'
         ],[
-            'name' => 'CSS 3'
+            'name' => 'CSS 3',
+            'src' => '/images/icons/css.jpg'
         ],[
-            'name' => 'Javascript'
+            'name' => 'Javascript',
+            'src' => '/images/icons/javascript.jpg'
         ],[
-            'name' => 'React JS'
+            'name' => 'React JS',
+            'src' => '/images/icons/react.jpg'
         ],[
-            'name' => 'Node Js'
+            'name' => 'Node Js',
+            'src' => '/images/icons/nodejs.jpg'
         ],[
-            'name' => 'PHP'
+            'name' => 'PHP',
+            'src' => '/images/icons/php.jpg'
         ],[
-            'name' => 'PHP Laravel'
+            'name' => 'PHP Laravel',
+            'src' => '/images/icons/laravel.jpg'
         ],[
-            'name' => 'MySQL'
+            'name' => 'MySQL',
+            'src' => '/images/icons/mysql.jpg'
         ],[
-            'name' => 'React Native'
+            'name' => 'React Native',
+            'src' => '/images/icons/react.jpg'
         ],[
-            'name' => 'Cafe 24'
+            'name' => 'Cafe 24',
+            'src' => '/images/icons/cafe24.jpg'
         ],[
-            'name' => 'Jquery'
+            'name' => 'Jquery',
+            'src' => '/images/icons/jquery.jpg'
         ]]
     ]
     ];
