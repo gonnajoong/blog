@@ -5,7 +5,8 @@
 <!-- inject:css -->
 <!-- endinject -->
 <script type="text/javascript">
-    window.meta = <?php echo json_encode($meta, JSON_UNESCAPED_UNICODE); ?>;
+    window.projects = <?php echo json_encode($projects, JSON_UNESCAPED_UNICODE); ?>;
+    window.skills = <?php echo json_encode($skills, JSON_UNESCAPED_UNICODE); ?>;
     window.isMobile = <?php echo $isMobile ? 'true' : 'false'; ?>;
 </script>
 </head>

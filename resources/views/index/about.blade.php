@@ -9,7 +9,7 @@
     <ul class="gj-about-list">
         <h2>내가 걸어온 길</h2>
         <li class="gj-split-wrap">
-            <span class="gj-split-image-wrap"></span>
+            <span class="gj-split-image-wrap common-01"></span>
             <span class="gj-split-text-wrap gj-split-padding">
                 <h2>화성 남양고등학교</h2>
                 <span>2012. 03 ~ 2015. 02</span>
@@ -29,10 +29,10 @@
                     <li>▷ 웹 디자이너 자격증 취득</li>
                 </ul>
             </span>
-            <span class="gj-split-image-wrap"></span>
+            <span class="gj-split-image-wrap common-02"></span>
         </li>
         <li class="gj-split-wrap">
-            <span class="gj-split-image-wrap"></span>
+            <span class="gj-split-image-wrap common-03"></span>
             <span class="gj-split-text-wrap  gj-split-padding">
                 <h2>(주)린코</h2>
                 <span>2019. 05. 20 ~ 2020. 08. 31</span>

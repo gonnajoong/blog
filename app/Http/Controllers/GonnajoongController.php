@@ -24,7 +24,8 @@ class GonnajoongController extends Controller
                 preg_match('/IEMobile/i', $userAgent));
 
             return view('index', [
-                'meta' => Config('metadata.gonnajoong'),
+                'projects' => Config('metadata.projects'),
+                'skills' => Config('metadata.skills'),
 
                 'isMobile' => $isMobile,
             ]);

@@ -1,5 +1,7 @@
 // path
 $path-etc: '/etc/';
+$path-image: '/images/';
+$path-common: #{$path-image}#{'commons/'};
 
 // color
 $white: white;

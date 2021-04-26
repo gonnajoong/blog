@@ -1,3 +1,7 @@
+$common-01 : #{$path-common}#{'/namyang_highschool.jpg'};
+$common-02 : #{$path-common}#{'/ansan_line_art.jpg'};
+$common-03 : #{$path-common}#{'/ace_tower.jpg'};
+
 .gj-main-layout {
     &.gj-about {
         width: 100%;
@@ -97,6 +101,16 @@
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
+
+                    &.common-01 {
+                        background-image: url($common-01);
+                    }
+                    &.common-02 {
+                        background-image: url($common-02);
+                    }
+                    &.common-03 {
+                        background-image: url($common-03);
+                    }
                 }
             }
         }
