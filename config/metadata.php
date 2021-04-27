@@ -3,76 +3,55 @@ return [
     'projects' => [
         'project' => [[
             'project_name' => 'JOY 37',
-            'contribution' => '30%',
-            'making_lang' => 'React JS',
-            'is_operation' => '파악 불가',
-            'role' => '리액트 스크립트 및 마크업 작성'
+            'period' => '30%',
+            'client' => '조이37',
+            'role' => '퍼블리싱 및 CRUD AIP 연동'
         ],[
             'project_name' => 'HAMSOA 20주년 이벤트 페이지',
-            'contribution' => '10%',
-            'making_lang' => 'PHP Laravel',
+            'period' => '-',
+            'client' => '함소아',
             'is_operation' => '서비스 종료',
-            'role' => '이벤트 갱신 유지보수'
+            'role' => '유지보수'
         ],[
             'project_name' => 'SD Tech',
-            'contribution' => '5%',
-            'making_lang' => 'PHP Laravel',
-            'is_operation' => '운영중',
+            'period' => '-',
+            'client' => 'SD Tech',
             'role' => '유지보수'
         ],[
             'project_name' => '마켓메이트',
-            'contribution' => '50%',
-            'making_lang' => 'React JS, PHP Laravel',
-            'is_operation' => '프로젝트 무기한 연기',
-            'role' => '프론트엔드 API 연동, 마크업작성'
+            'period' => '2019.09 -',
+            'client' => '(주)그린랩스',
+            'role' => '퍼블리싱 및 CRUD API 연동'
         ],[
             'project_name' => 'GreenLabs ERP',
-            'contribution' => '5%',
-            'making_lang' => 'React JS',
-            'is_operation' => '운영중',
-            'role' => 'Am4Chart를 통한 차트작성 및 마크업'
+            'period' => '2019.01 - 2019.05',
+            'client' => '(주)그린랩스',
+            'role' => '퍼블리싱 및 CRUD AIP 연동'
         ],[
-            'project_name' => 'JOY 37',
-            'contribution' => '30%',
-            'making_lang' => 'React JS',
-            'is_operation' => '파악 불가',
-            'role' => ''
+            'project_name' => 'Vision Link',
+            'period' => '2020.01 - 2020.04',
+            'client' => '(주)혜인',
+            'role' => '퍼블리싱 및 API 연동'
         ],[
-            'project_name' => 'JOY 37',
-            'contribution' => '30%',
-            'making_lang' => 'React JS',
-            'is_operation' => '파악 불가',
-            'role' => ''
+            'project_name' => 'CastelBajak - campaign',
+            'period' => '2020.04 - 2020.07',
+            'client' => '주식회사 까스텔바작',
+            'role' => '퍼블리싱'
         ],[
-            'project_name' => 'JOY 37',
-            'contribution' => '30%',
-            'making_lang' => 'React JS',
-            'is_operation' => '파악 불가',
-            'role' => ''
-        ],[
-            'project_name' => 'JOY 37',
-            'contribution' => '30%',
-            'making_lang' => 'React JS',
-            'is_operation' => '파악 불가',
-            'role' => ''
-        ],[
-            'project_name' => 'JOY 37',
-            'contribution' => '30%',
-            'making_lang' => 'React JS',
-            'is_operation' => '파악 불가',
-            'role' => ''
+            'project_name' => 'archivepke',
+            'period' => '2020.06 - 2020.09',
+            'client' => '코오롱 인더스트리 (주)',
+            'role' => '퍼블리싱'
         ],[
             'project_name' => 'ODG',
-            'contribution' => '40%',
-            'making_lang' => 'Cafe24',
-            'is_operation' => '운영중',
-            'role' => '마크업, 스크립트 작성'
+            'period' => '2020.03 - 2020.04',
+            'client' => 'ODG',
+            'role' => '퍼블리싱'
         ],[
             'project_name' => 'LikeWise',
-            'contribution' => '70%',
-            'making_lang' => 'Cafe24',
-            'is_operation' => '운영중',
-            'role' => '마크업, 스크립트 작성'
+            'period' => '2020.05 - 2020.07',
+            'client' => '코오롱 인더스트리 (주)',
+            'role' => '퍼블리싱'
         ]]
     ],
     'skills' => [
