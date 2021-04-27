@@ -99,5 +99,7 @@ return [
             'name' => 'Jquery',
             'src' => '/images/icons/jquery.jpg'
         ]]
+    ],
+    'joy37' => [
     ]
     ];

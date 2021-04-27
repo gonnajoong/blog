@@ -11,10 +11,6 @@ class GonnajoongController extends Controller
         if (preg_match('/MSIE\s(?P<v>\d+)/i', @$_SERVER['HTTP_USER_AGENT'], $B) && $B['v'] <= 8) {
             return view('old');
         } else {
-            $req->validate([
-                'postPage' => 'nullable|numeric',
-                'noticePage' => 'nullable|numeric',
-            ]);
 
             $userAgent = $req->header('User-Agent');
             $isMobile = (preg_match('/Android/i', $userAgent) ||
@@ -26,6 +22,26 @@ class GonnajoongController extends Controller
             return view('index', [
                 'projects' => Config('metadata.projects'),
                 'skills' => Config('metadata.skills'),
+
+                'isMobile' => $isMobile,
+            ]);
+        }
+    }
+
+    public function joy37(Request $req) {
+        if (preg_match('/MSIE\s(?P<v>\d+)/i', @$_SERVER['HTTP_USER_AGENT'], $B) && $B['v'] <= 8) {
+            return view('old');
+        } else {
+
+            $userAgent = $req->header('User-Agent');
+            $isMobile = (preg_match('/Android/i', $userAgent) ||
+                preg_match('/BlackBerry/i', $userAgent) ||
+                preg_match('/iPhone|iPad|iPod/i', $userAgent) ||
+                preg_match('/Opera Mini/i', $userAgent) ||
+                preg_match('/IEMobile/i', $userAgent));
+
+            return view('joy37', [
+                'project' => Config('metadata.joy37'),
 
                 'isMobile' => $isMobile,
             ]);

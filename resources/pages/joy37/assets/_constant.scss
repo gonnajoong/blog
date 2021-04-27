@@ -1,0 +1,19 @@
+// path
+$path-etc: '/etc/';
+$path-image: '/images/';
+$path-common: #{$path-image}#{'commons/'};
+
+// color
+$white: white;
+
+// z-index
+$z-index-header: 10;
+
+// screen
+$max-m: 767px;
+$min-t: 768px;
+$max-t: 1219px;
+$min-pc: 1220px;
+
+// container
+$container: 1200px;
