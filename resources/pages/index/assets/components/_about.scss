@@ -1,6 +1,6 @@
-$common-01 : #{$path-common}#{'/namyang_highschool.jpg'};
-$common-02 : #{$path-common}#{'/ansan_line_art.jpg'};
-$common-03 : #{$path-common}#{'/ace_tower.jpg'};
+$common-01 : #{$path-common}#{'/namyang.jpg'};
+$common-02 : #{$path-common}#{'/lineart.jpg'};
+$common-03 : #{$path-common}#{'/linco.jpg'};
 
 .gj-main-layout {
     &.gj-about {
@@ -18,6 +18,7 @@ $common-03 : #{$path-common}#{'/ace_tower.jpg'};
             font-size: 200px;
             margin-bottom: 100px;
             text-align: center;
+            font-weight: 100;
 
             p {
                 display: inline-block;
