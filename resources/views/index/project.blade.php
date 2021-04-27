@@ -4,11 +4,8 @@
         @foreach($projects['project'] as $key=>$projects)
             <li>
                 <span>
-                    <img src="#" alt="프로젝트 이미지, 아이콘"/>
+                    <img src="{{$projects['src']}}" alt="프로젝트 이미지, 아이콘"/>
                     <p>{{$projects['project_name']}}</p>
-                    <span>제작 기간: {{$projects['period']}}</span>
-                    <span>클라이언트 : {{$projects['client']}}</span>
-                    <span>담당 역할: {{$projects['role']}}</span>
                 </span>
             </li>
         @endforeach
