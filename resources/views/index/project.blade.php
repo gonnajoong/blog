@@ -3,10 +3,12 @@
     <ul class="gj-project-icon-list">
         @foreach($projects['project'] as $key=>$projects)
             <li>
-                <span>
-                    <img src="{{$projects['src']}}" alt="프로젝트 이미지, 아이콘"/>
-                    <p>{{$projects['project_name']}}</p>
-                </span>
+                <a href="{{$projects['page']}}">
+                    <span>
+                        <img src="{{$projects['src']}}" alt="프로젝트 이미지, 아이콘"/>
+                        <p>{{$projects['project_name']}}</p>
+                    </span>
+                </a>
             </li>
         @endforeach
     </ul>
