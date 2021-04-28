@@ -118,5 +118,9 @@ return [
         ]]
     ],
     'joy37' => [
+        'project_name' => 'JOY 37',
+        'project_period' => '-',
+        'project_role' => '퍼블리싱 및 CURD API 연동',
+        'project_contribution' => '20%',
     ]
     ];
