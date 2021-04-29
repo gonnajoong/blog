@@ -1,6 +1,6 @@
 <header class="gj-header-wrap">
                 <span class="gj-header-container">
-                    <h1 class="gj-header-title">KGJ</h1>
+                    <a href="/"><h1 class="gj-header-title">KGJ</h1></a>
                     <nav class="gj-nav-wrap">
                         <ul>
                             <li>BLOG</li>
