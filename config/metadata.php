@@ -119,7 +119,7 @@ return [
     ],
     'joy37' => [
         'project_name' => 'JOY 37',
-        'project_period' => '-',
+        'project_period' => '2019.05 - 2019.08',
         'project_role' => '퍼블리싱 및 CURD API 연동',
         'project_contribution' => '20%',
     ]

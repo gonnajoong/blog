@@ -2,6 +2,7 @@
 $path-etc: '/etc/';
 $path-image: '/images/';
 $path-common: #{$path-image}#{'commons/'};
+$path-project: #{$path-image}#{'projects/'};
 
 // color
 $white: white;

@@ -19,4 +19,4 @@
 <link rel="icon" type="image/png" href="/images/blog-favicon-16.png" sizes="16x16"/>
 
 
-<title>K G J - Porfolio</title>
+<title>KGJ - Porfolio</title>
