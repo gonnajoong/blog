@@ -17,6 +17,7 @@
             max-width: 1600px;
             width: 100%;
             flex-wrap: wrap;
+            padding: 0 16px;
 
             li {
                 width: 25%;
@@ -50,6 +51,60 @@
 
                         &:last-of-type {
                             margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include screen(m) {
+        &.gj-blog {
+            padding-top: 20px;
+
+            h1 {
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+
+            .gj-project-icon-list {
+                max-width: 100%;
+                padding: 0 8px;
+
+                li {
+                    width: 50%;
+                    margin-bottom: 18px;
+
+                    span {
+                        display: inline-block;
+                        cursor: pointer;
+                        max-width: 150px;
+
+                        img {
+                            display: inline-block;
+                            width: 150px;
+                            height: 150px;
+                            border-radius: 8px;
+                            background-color: lightgray;
+                            margin-bottom: 10px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            margin-bottom: 18px;
+                            font-weight: bold;
+                        }
+
+                        span {
+                            display: block;
+                            text-align: left;
+                            font-size: 14px;
+                            margin-bottom: 6px;
+
+                            &:last-of-type {
+                                margin: 0;
+                            }
                         }
                     }
                 }

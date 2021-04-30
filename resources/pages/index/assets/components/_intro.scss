@@ -53,4 +53,36 @@
             }
         }
     }
+
+    @include screen(m) {
+        &.gj-main {
+
+            h1 {
+                font-size: 100px;
+                max-width: 100%;
+                padding: 0 8px;
+                line-height: 1;
+
+                .gj-border-text {
+                    -webkit-text-stroke-width: 1px;
+                }
+
+                & + p {
+                    max-width: 100%;
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 0 8px;
+
+                    &::after {
+                        top: 40px;
+                        left: 8px;
+                        transform: none;
+                        width: 70%;
+                        height: 6px;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
 }

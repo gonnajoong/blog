@@ -1,14 +1,14 @@
 <article class="gj-main-layout gj-about" id="gjAbout">
-    <h1>
+    <h1 data-aos="fade-up">
         ABOUT.<br/>
-        <p>
+        <p data-aos="fade-up" data-aos-delay="150">
             <span>언제나 침착하고 신중한</span><br/>
             프론트엔드 개발자 "김관중"
         </p>
     </h1>
     <ul class="gj-about-list">
-        <h2>내가 걸어온 길</h2>
-        <li class="gj-split-wrap">
+        <h2 data-aos="fade-up">내가 걸어온 길</h2>
+        <li data-aos="fade-up" data-aos-delay="150" class="gj-split-wrap">
             <span class="gj-split-image-wrap common-01"></span>
             <span class="gj-split-text-wrap gj-split-padding">
                 <h2>화성 남양고등학교</h2>
@@ -20,7 +20,7 @@
                 </ul>
             </span>
         </li>
-        <li class="gj-split-wrap">
+        <li data-aos="fade-up" data-aos-delay="150" class="gj-split-wrap">
             <span class="gj-split-text-wrap ">
                 <h2>안산 라인컴퓨터아트학원</h2>
                 <span>2018. 04 ~ 2019. 02</span>
@@ -31,7 +31,7 @@
             </span>
             <span class="gj-split-image-wrap common-02"></span>
         </li>
-        <li class="gj-split-wrap">
+        <li data-aos="fade-up" data-aos-delay="150" class="gj-split-wrap">
             <span class="gj-split-image-wrap common-03"></span>
             <span class="gj-split-text-wrap  gj-split-padding">
                 <h2>(주)린코</h2>
