@@ -41,4 +41,16 @@
             }
         }
     }
+
+    @include screen(m, t) {
+        & > .gj-header-container {
+            max-width: 100%;
+            padding: 0 8px;
+
+            .gj-nav-wrap ul {
+                display: inline-flex;
+                align-items: center;
+            }
+        }
+    }
 }
