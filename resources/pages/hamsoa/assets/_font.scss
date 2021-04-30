@@ -1,0 +1,51 @@
+// noto sans kr
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans Light'), local('NotoSans-Light'), url(/fonts/NotoSans/NotoSans-Light.eot);
+    src: url(/fonts/NotoSans/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/NotoSans/NotoSans-Light.woff2) format('woff2'),
+    url(/fonts/NotoSans/NotoSans-Light.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(/fonts/NotoSans/NotoSans-Regular.eot);
+    src: url(/fonts/NotoSans/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/NotoSans/NotoSans-Regular.woff2) format('woff2'),
+    url(/fonts/NotoSans/NotoSans-Regular.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(/fonts/NotoSans/NotoSans-Medium.eot);
+    src: url(/fonts/NotoSans/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/NotoSans/NotoSans-Medium.woff2) format('woff2'),
+    url(/fonts/NotoSans/NotoSans-Medium.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(/fonts/NotoSans/NotoSans-Bold.eot);
+    src: url(/fonts/NotoSans/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/NotoSans/NotoSans-Bold.woff2) format('woff2'),
+    url(/fonts/NotoSans/NotoSans-Bold.woff) format('woff');
+  }
+
+/* staatliches-regular - latin */
+@font-face {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Staatliches/staatliches-v6-latin-regular.eot); /* IE9 Compat Modes */
+    src: local(''),
+    url(/fonts/Staatliches/staatliches-v6-latin-regular.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(/fonts/Staatliches/staatliches-v6-latin-regular.woff2) format('woff2'), /* Super Modern Browsers */
+    url(/fonts/Staatliches/staatliches-v6-latin-regular.woff) format('woff'), /* Modern Browsers */
+    url(/fonts/Staatliches/staatliches-v6-latin-regular.ttf) format('truetype'), /* Safari, Android, iOS */
+    url(/fonts/Staatliches/staatliches-v6-latin-regular.svg#Staatliches) format('svg'); /* Legacy iOS */
+}
