@@ -57,10 +57,12 @@ $hamsoa-banner: #{$hamsoa}#{'hamsoa_main_banner.gif'};
                     background-color: transparent;
                     transition: all .2s ease-in-out;
 
-                    &:hover {
-                        background-color: #fff;
-                        border-color: #fff;
-                        color: #333;
+                    @media (hover: hover) {
+                        &:hover {
+                            background-color: #fff;
+                            border-color: #fff;
+                            color: #333;
+                        }
                     }
                 }
             }
@@ -151,6 +153,43 @@ $hamsoa-banner: #{$hamsoa}#{'hamsoa_main_banner.gif'};
                     width: 100%;
                 }
             }
+        }
+    }
+
+    @include screen(m) {
+        .gj-project-banner {
+            .gj-button-warp {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        .gj-project-title {
+            width: 290px;
+            border-radius: 40px;
+            padding: 16px 24px;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 415px;
+            background-color: #fff;
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            span {
+                flex-wrap: wrap;
+
+                p:nth-of-type(2) {
+                    margin: 0 16px;
+                }
+            }
+        }
+
+        .gj-project-content {
+            padding: 80px 8px 0;
         }
     }
 }
