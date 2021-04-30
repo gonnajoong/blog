@@ -120,7 +120,12 @@ return [
     'joy37' => [
         'project_name' => 'JOY 37',
         'project_period' => '2019.05 - 2019.08',
-        'project_role' => '퍼블리싱 및 CURD API 연동',
-        'project_contribution' => '20%',
-    ]
+        'project_role' => '퍼블리싱 및 CURD API 연동'
+    ],
+    'hamsoa' => [
+        'project_name' => 'HAMSOA 20주년',
+        'project_period' => '2019.07 - 2019.12',
+        'project_role' => '유지보수',
+        'project_page' => 'http://hamsoa20th.com/'
+    ],
     ];

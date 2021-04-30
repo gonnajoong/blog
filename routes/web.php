@@ -14,3 +14,4 @@
 Route::get('/', 'GonnajoongController@index');
 
 Route::get('/joy37', 'GonnajoongController@joy37');
+Route::get('/hamsoa', 'GonnajoongController@hamsoa');
