@@ -29,7 +29,7 @@ body {
     overflow-y: auto;
     color: $color-text;
     -webkit-overflow-scrolling: touch;
-    font-family: 'Spoqa Han Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 input {
@@ -72,7 +72,7 @@ input {
     border: none;
     outline: none;
     border-radius: 0;
-    font-family: 'Spoqa Han Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 button {
@@ -82,7 +82,7 @@ button {
     outline: none;
     cursor: pointer;
     background-color: white;
-    font-family: 'Spoqa Han Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     span {
         position: relative;
     }
@@ -125,7 +125,7 @@ select {
     background-color: white;
     outline: none;
     cursor: pointer;
-    font-family: 'Spoqa Han Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 select::-ms-expand {

@@ -18,5 +18,7 @@
 <link rel="icon" type="image/png" href="/images/blog-favicon-32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="/images/blog-favicon-16.png" sizes="16x16"/>
 
+<link href="/libs/aos.css" rel="stylesheet">
+<script src="/libs/aos.js"></script>
 
 <title>KGJ - Porfolio</title>
