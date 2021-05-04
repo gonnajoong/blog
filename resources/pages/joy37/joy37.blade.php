@@ -10,9 +10,9 @@
     </script>
 </head>
 <body>
-@include('joy37.header')
+@include('index.header')
 @include('joy37.main')
-@include('joy37.footer')
+@include('index.footer')
 <!-- inject:js -->
 <!-- endinject -->
 </body>

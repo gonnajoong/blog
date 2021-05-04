@@ -24,13 +24,6 @@ return [
             'src' => '/images/projects/sdtech.jpg',
             'page' => '/sd-tech'
         ],[
-            'project_name' => '마켓메이트',
-            'period' => '2019.09 -',
-            'client' => '(주)그린랩스',
-            'role' => '퍼블리싱 및 CRUD API 연동',
-            'src' => '/images/projects/marketmate.jpg',
-            'page' => '/marketmate'
-        ],[
             'project_name' => 'Farm Morning',
             'period' => '2019.01 - 2019.05',
             'client' => '(주)그린랩스',
@@ -78,7 +71,7 @@ return [
             'client' => '(주)에이치제이시스템즈',
             'role' => '퍼블리싱',
             'src' => '/images/projects/hjsystems.jpg',
-            'page' => '/hjsystems'
+            'page' => '/hj-systems'
         ]]
     ],
     'skills' => [
@@ -128,4 +121,51 @@ return [
         'project_role' => '유지보수',
         'project_page' => 'http://hamsoa20th.com/'
     ],
-    ];
+    'sdtech' => [
+        'project_name' => 'SD Tech',
+        'project_period' => '2019.11',
+        'project_role' => '유지보수',
+        'project_page' => 'http://sdtech-co.com/'
+    ],
+    'farmmorning' => [
+        'project_name' => 'Farm Morning',
+        'project_period' => '2019.08 - 2019.09',
+        'project_role' => '차트 퍼블리싱',
+        'project_page' => 'https://www.farmmorning.com/'
+    ],
+    'visionlink' => [
+        'project_name' => 'Vision Link',
+        'project_period' => '2020.01 - 2020.04',
+        'project_role' => '퍼블리싱 및 차트작성',
+        'project_page' => 'https://vl.haein.com/login?uid=&password=&platform=&token='
+    ],
+    'castelbajak' => [
+        'project_name' => 'CastelBajak',
+        'project_period' => '2020.04 - 2020.07',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'http://castelbajac.com/'
+    ],
+    'archivepke' => [
+        'project_name' => 'Archivepke',
+        'project_period' => '2020.06 - 2020.07',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'https://www.kolonmall.com/ARCHIVEPKE'
+    ],
+    'odg' => [
+        'project_name' => 'ODG',
+        'project_period' => '2020.03 - 2020.04',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'https://www.odg.kr/'
+    ],
+    'likewise' => [
+        'project_name' => 'LIKEWISE',
+        'project_period' => '2020.05 - 2020.07',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'https://likewise.kr/'
+    ],
+    'hjsystems' => [
+        'project_name' => '에이치제이시스템즈',
+        'project_period' => '2021.01 - 2021.03',
+        'project_role' => '퍼블리싱 및 CURD API 연동',
+        'project_page' => 'http://www.hjsystems.co.kr/'
+    ]];

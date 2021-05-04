@@ -1,5 +1,5 @@
 <article class="gj-main-layout gj-skill">
-    <h2 data-aos="fade-up">언어</h2>
+    <h2 data-aos="fade-up">나의 기술</h2>
     <ul class="gj-grid-wrap">
         @foreach($skills['skill'] as $key=>$skills)
             <li data-aos="fade-up" data-aos-delay="150">
