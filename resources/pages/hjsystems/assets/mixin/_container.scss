@@ -1,0 +1,6 @@
+@mixin container() {
+  @media screen and (min-width: 1919px) {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+}

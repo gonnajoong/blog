@@ -10,9 +10,9 @@
     </script>
 </head>
 <body>
-@include('hamsoa.header')
+@include('index.header')
 @include('hamsoa.main')
-@include('hamsoa.footer')
+@include('index.footer')
 <!-- inject:js -->
 <!-- endinject -->
 </body>

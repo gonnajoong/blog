@@ -3,82 +3,44 @@ return [
     'projects' => [
         'project' => [[
             'project_name' => 'JOY 37',
-            'period' => '-',
-            'client' => '조이37',
-            'role' => '퍼블리싱 및 CRUD AIP 연동',
             'src' => '/images/projects/joy37.jpg',
             'page' => '/joy37'
         ],[
             'project_name' => 'HAMSOA 20주년 이벤트 페이지',
-            'period' => '-',
-            'client' => '함소아',
-            'is_operation' => '서비스 종료',
-            'role' => '유지보수',
             'src' => '/images/projects/hamsoa.jpg',
             'page' => '/hamsoa'
         ],[
             'project_name' => 'SD Tech',
-            'period' => '-',
-            'client' => 'SD Tech',
-            'role' => '유지보수',
             'src' => '/images/projects/sdtech.jpg',
             'page' => '/sd-tech'
         ],[
-            'project_name' => '마켓메이트',
-            'period' => '2019.09 -',
-            'client' => '(주)그린랩스',
-            'role' => '퍼블리싱 및 CRUD API 연동',
-            'src' => '/images/projects/marketmate.jpg',
-            'page' => '/marketmate'
-        ],[
             'project_name' => 'Farm Morning',
-            'period' => '2019.01 - 2019.05',
-            'client' => '(주)그린랩스',
-            'role' => '퍼블리싱 및 CRUD AIP 연동',
             'src' => '/images/projects/farmmorning.jpg',
-            'page' => '/joy37'
+            'page' => '/farm-morning'
         ],[
             'project_name' => 'Vision Link',
-            'period' => '2020.01 - 2020.04',
-            'client' => '(주)혜인',
-            'role' => '퍼블리싱 및 API 연동',
             'src' => '/images/projects/visionlink.jpg',
             'page' => '/vision-link'
         ],[
-            'project_name' => 'CastelBajak',
-            'period' => '2020.04 - 2020.07',
-            'client' => '주식회사 까스텔바작',
-            'role' => '퍼블리싱',
+            'project_name' => 'CastelBajac<br/>마이크로사이트',
             'src' => '/images/projects/castelbajac.jpg',
-            'page' => '/castelbajak'
+            'page' => '/castelbajac'
         ],[
             'project_name' => 'Archivepke',
-            'period' => '2020.06 - 2020.09',
-            'client' => '코오롱 인더스트리 (주)',
-            'role' => '퍼블리싱',
             'src' => '/images/projects/arkaivepke.jpg',
             'page' => '/archivepke'
         ],[
             'project_name' => 'ODG',
-            'period' => '2020.03 - 2020.04',
-            'client' => 'ODG',
-            'role' => '퍼블리싱',
             'src' => '/images/projects/odg.jpg',
             'page' => '/odg'
         ],[
             'project_name' => 'LikeWise',
-            'period' => '2020.05 - 2020.07',
-            'client' => '코오롱 인더스트리 (주)',
-            'role' => '퍼블리싱',
             'src' => '/images/projects/likewise.jpg',
             'page' => '/likewise'
         ],[
             'project_name' => 'HJ SYSTEMS',
-            'period' => '2021.01 - 2021.03',
-            'client' => '(주)에이치제이시스템즈',
-            'role' => '퍼블리싱',
             'src' => '/images/projects/hjsystems.jpg',
-            'page' => '/hjsystems'
+            'page' => '/hj-systems'
         ]]
     ],
     'skills' => [
@@ -128,4 +90,51 @@ return [
         'project_role' => '유지보수',
         'project_page' => 'http://hamsoa20th.com/'
     ],
-    ];
+    'sdtech' => [
+        'project_name' => 'SD Tech',
+        'project_period' => '2019.11',
+        'project_role' => '유지보수',
+        'project_page' => 'http://sdtech-co.com/'
+    ],
+    'farmmorning' => [
+        'project_name' => 'Farm Morning',
+        'project_period' => '2019.08 - 2019.09',
+        'project_role' => '차트 퍼블리싱',
+        'project_page' => 'https://www.farmmorning.com/'
+    ],
+    'visionlink' => [
+        'project_name' => 'Vision Link',
+        'project_period' => '2020.01 - 2020.04',
+        'project_role' => '퍼블리싱 및 차트작성',
+        'project_page' => 'https://vl.haein.com/login?uid=&password=&platform=&token='
+    ],
+    'castelbajac' => [
+        'project_name' => 'CastelBajac<br>마이크로사이트',
+        'project_period' => '2020.04 - 2020.07',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'http://castelbajac.com/'
+    ],
+    'archivepke' => [
+        'project_name' => 'Archivepke',
+        'project_period' => '2020.06 - 2020.07',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'https://archive-epke.com/'
+    ],
+    'odg' => [
+        'project_name' => 'ODG',
+        'project_period' => '2020.03 - 2020.04',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'https://www.odg.kr/'
+    ],
+    'likewise' => [
+        'project_name' => 'LIKEWISE',
+        'project_period' => '2020.05 - 2020.07',
+        'project_role' => '퍼블리싱',
+        'project_page' => 'https://likewise.kr/'
+    ],
+    'hjsystems' => [
+        'project_name' => '에이치제이시스템즈',
+        'project_period' => '2021.01 - 2021.03',
+        'project_role' => '퍼블리싱 및 CURD API 연동',
+        'project_page' => 'http://www.hjsystems.co.kr/'
+    ]];

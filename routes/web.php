@@ -15,3 +15,12 @@ Route::get('/', 'GonnajoongController@index');
 
 Route::get('/joy37', 'GonnajoongController@joy37');
 Route::get('/hamsoa', 'GonnajoongController@hamsoa');
+Route::get('/sd-tech', 'GonnajoongController@sdtech');
+Route::get('/farm-morning', 'GonnajoongController@farmmorning');
+Route::get('/vision-link', 'GonnajoongController@visionlink');
+Route::get('/castelbajac', 'GonnajoongController@castelbajac');
+Route::get('/archivepke', 'GonnajoongController@archivepke');
+Route::get('/odg', 'GonnajoongController@odg');
+Route::get('/likewise', 'GonnajoongController@likewise');
+Route::get('/hj-systems', 'GonnajoongController@hjsystems');
+
