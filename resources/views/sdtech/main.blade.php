@@ -20,7 +20,6 @@
         <span class="gj-state-button-wrap">
             <div>
                 <button id="statePC" type="button" class="is-active">PC</button>
-                <button id="stateMobile" type="button">Mobile</button>
             </div>
         </span>
         <ul id="imagePcWrap" class="gj-image-wrap is-visible">
