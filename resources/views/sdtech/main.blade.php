@@ -24,75 +24,8 @@
         </span>
         <ul id="imagePcWrap" class="gj-image-wrap is-visible">
             <li>
-                <a href="/images/projects/sdtech/sdtech_main_01.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_01.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_02.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_02.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_03.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_03.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_04.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_04.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_05.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_05.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_06.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_06.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_07.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_07.png" alt="page_image">
-                </a>
-            </li>
-        </ul>
-        <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_01_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_01_m.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_02_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_02_m.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_03_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_03_m.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_04_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_04_m.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_05_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_05_m.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_06_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_06_m.png" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/sdtech/sdtech_main_07_m.png" target="_blank">
-                    <img src="/images/projects/sdtech/sdtech_main_07_m.png" alt="page_image">
+                <a href="/images/projects/sdtech/sdtech_01.jpg" target="_blank">
+                    <img src="/images/projects/sdtech/sdtech_01.jpg" alt="page_image">
                 </a>
             </li>
         </ul>
