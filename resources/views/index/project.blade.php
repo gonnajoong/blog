@@ -6,7 +6,7 @@
                 <a href="{{$projects['page']}}">
                     <span>
                         <img src="{{$projects['src']}}" alt="프로젝트 이미지, 아이콘"/>
-                        <p>{{$projects['project_name']}}</p>
+                        <p>{!! $projects['project_name'] !!}</p>
                     </span>
                 </a>
             </li>

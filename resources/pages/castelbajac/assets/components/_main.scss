@@ -1,5 +1,5 @@
-$castelbajak: #{$path-project}#{'castelbajak/'};
-$castelbajak-banner: #{$castelbajak}#{'castelbajak_main_banner.jpg'};
+$castelbajac: #{$path-project}#{'castelbajac/'};
+$castelbajac-banner: #{$castelbajac}#{'castelbajac_main_banner.jpg'};
 
 #gjProjectWrap {
     position: relative;
@@ -17,8 +17,8 @@ $castelbajak-banner: #{$castelbajak}#{'castelbajak_main_banner.jpg'};
             background-repeat: no-repeat;
             background-size: cover;
 
-            &.castelbajak {
-                background-image: url($castelbajak-banner);
+            &.castelbajac {
+                background-image: url($castelbajac-banner);
             }
         }
 
@@ -102,7 +102,7 @@ $castelbajak-banner: #{$castelbajak}#{'castelbajak_main_banner.jpg'};
         height: 100%;
         min-height: 200px;
         text-align: center;
-        padding: 80px 16px 0;
+        padding: 120px 16px 0;
 
 
         h2 {

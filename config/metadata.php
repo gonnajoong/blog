@@ -22,7 +22,7 @@ return [
             'src' => '/images/projects/visionlink.jpg',
             'page' => '/vision-link'
         ],[
-            'project_name' => 'CastelBajac',
+            'project_name' => 'CastelBajac<br/>마이크로사이트',
             'src' => '/images/projects/castelbajac.jpg',
             'page' => '/castelbajac'
         ],[
@@ -109,7 +109,7 @@ return [
         'project_page' => 'https://vl.haein.com/login?uid=&password=&platform=&token='
     ],
     'castelbajac' => [
-        'project_name' => 'CastelBajac',
+        'project_name' => 'CastelBajac<br>마이크로사이트',
         'project_period' => '2020.04 - 2020.07',
         'project_role' => '퍼블리싱',
         'project_page' => 'http://castelbajac.com/'
