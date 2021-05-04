@@ -18,7 +18,7 @@ Route::get('/hamsoa', 'GonnajoongController@hamsoa');
 Route::get('/sd-tech', 'GonnajoongController@sdtech');
 Route::get('/farm-morning', 'GonnajoongController@farmmorning');
 Route::get('/vision-link', 'GonnajoongController@visionlink');
-Route::get('/castelbajak', 'GonnajoongController@castelbajak');
+Route::get('/castelbajac', 'GonnajoongController@castelbajac');
 Route::get('/archivepke', 'GonnajoongController@archivepke');
 Route::get('/odg', 'GonnajoongController@odg');
 Route::get('/likewise', 'GonnajoongController@likewise');

@@ -11,7 +11,7 @@
 </head>
 <body>
 @include('index.header')
-@include('castelbajak.main')
+@include('castelbajac.main')
 @include('index.footer')
 <!-- inject:js -->
 <!-- endinject -->

@@ -128,7 +128,7 @@ class GonnajoongController extends Controller
         }
     }
 
-    public function castelbajak(Request $req) {
+    public function castelbajac(Request $req) {
         if (preg_match('/MSIE\s(?P<v>\d+)/i', @$_SERVER['HTTP_USER_AGENT'], $B) && $B['v'] <= 8) {
             return view('old');
         } else {
@@ -140,8 +140,8 @@ class GonnajoongController extends Controller
                 preg_match('/Opera Mini/i', $userAgent) ||
                 preg_match('/IEMobile/i', $userAgent));
 
-            return view('castelbajak', [
-                'project' => Config('metadata.castelbajak'),
+            return view('castelbajac', [
+                'project' => Config('metadata.castelbajac'),
 
                 'isMobile' => $isMobile,
             ]);
