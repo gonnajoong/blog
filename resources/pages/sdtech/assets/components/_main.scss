@@ -157,6 +157,13 @@ $sdtech-banner: #{$sdtech}#{'sdtech_main_banner.jpg'};
     }
 
     @include screen(m) {
+        .gj-project-banner {
+            .gj-button-warp {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
         .gj-project-title {
             width: 290px;
             border-radius: 40px;
