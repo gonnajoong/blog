@@ -49,16 +49,6 @@
                     <img src="/images/projects/hjsystems/hjsystems_05.jpg" alt="page_image">
                 </a>
             </li>
-            <li>
-                <a href="/images/projects/hjsystems/hjsystems_06.jpg" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_06.jpg" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/hjsystems/hjsystems_07.jpg" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_07.jpg" alt="page_image">
-                </a>
-            </li>
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
@@ -84,16 +74,6 @@
             <li>
                 <a href="/images/projects/hjsystems/hjsystems_05_m.jpg" target="_blank">
                     <img src="/images/projects/hjsystems/hjsystems_05_m.jpg" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/hjsystems/hjsystems_06_m.jpg" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_06_m.jpg" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/hjsystems/hjsystems_07_m.jpg" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_07_m.jpg" alt="page_image">
                 </a>
             </li>
         </ul>
