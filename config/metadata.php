@@ -118,7 +118,7 @@ return [
         'project_name' => 'Archivepke',
         'project_period' => '2020.06 - 2020.07',
         'project_role' => '퍼블리싱',
-        'project_page' => 'https://www.kolonmall.com/ARCHIVEPKE'
+        'project_page' => 'https://archive-epke.com/'
     ],
     'odg' => [
         'project_name' => 'ODG',
