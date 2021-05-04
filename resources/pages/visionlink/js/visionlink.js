@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import 'slick-carousel/slick/slick';
 
 $(() => {
     const statePC = $("#statePC");
@@ -18,5 +19,13 @@ $(() => {
         statePC.removeClass('is-active');
         imageMobileWrap.addClass('is-visible');
         imagePcWrap.removeClass('is-visible');
+    });
+
+    imagePcWrap.slick({
+        slidesToShow: 1
+    });
+
+    imageMobileWrap.slick({
+        slidesToShow: 1
     });
 });

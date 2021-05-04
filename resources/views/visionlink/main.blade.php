@@ -96,16 +96,6 @@
                     <img src="/images/projects/visionlink/visionlink_05_m.jpg" alt="page_image">
                 </a>
             </li>
-            <li>
-                <a href="/images/projects/visionlink/visionlink_06_m.jpg" target="_blank">
-                    <img src="/images/projects/visionlink/visionlink_06_m.jpg" alt="page_image">
-                </a>
-            </li>
-            <li>
-                <a href="/images/projects/visionlink/visionlink_07_m.jpg" target="_blank">
-                    <img src="/images/projects/visionlink/visionlink_07_m.jpg" alt="page_image">
-                </a>
-            </li>
         </ul>
     </article>
 </section>

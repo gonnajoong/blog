@@ -28,20 +28,17 @@
         "gulp-inject": "^4.3.2",
         "gulp-inject-string": "^1.1.1",
         "gulp-rename": "^1.4.0",
+        "jquery": "3.6.0",
         "mini-css-extract-plugin": "^0.4.2",
         "mysql2": "^1.6.4",
+        "ncp": "^2.0.0",
         "node-cmd": "^3.0.0",
         "node-cron": "^2.0.3",
         "node-sass": "^4.9.3",
-        "ncp": "^2.0.0",
         "sass-loader": "^7.1.0",
-        "slick-carousel": "^1.8.1",
+        "slick-carousel": "1.8.1",
         "style-loader": "^0.23.0",
         "webpack": "^4.17.1",
         "webpack-stream": "^5.1.1"
-    },
-    "devDependencies": {
-        "axios": "^0.18",
-        "jquery": "^3.3.1"
     }
 }
