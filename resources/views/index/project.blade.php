@@ -1,4 +1,4 @@
-<article class="gj-main-layout gj-blog" id="gjBlog">
+<article class="gj-main-layout gj-blog" id="gjProject">
     <h1 data-aos="fade-up">참여 프로젝트</h1>
     <ul class="gj-project-icon-list">
         @foreach($projects['project'] as $key=>$projects)

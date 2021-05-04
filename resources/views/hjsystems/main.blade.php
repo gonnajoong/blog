@@ -25,75 +25,75 @@
         </span>
         <ul id="imagePcWrap" class="gj-image-wrap is-visible">
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_01.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_01.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_01.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_01.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_02.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_02.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_02.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_02.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_03.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_03.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_03.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_03.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_04.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_04.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_04.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_04.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_05.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_05.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_05.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_05.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_06.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_06.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_06.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_06.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_07.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_07.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_07.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_07.jpg" alt="page_image">
                 </a>
             </li>
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_01_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_01_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_01_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_01_m.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_02_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_02_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_02_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_02_m.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_03_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_03_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_03_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_03_m.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_04_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_04_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_04_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_04_m.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_05_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_05_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_05_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_05_m.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_06_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_06_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_06_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_06_m.jpg" alt="page_image">
                 </a>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_main_07_m.png" target="_blank">
-                    <img src="/images/projects/hjsystems/hjsystems_main_07_m.png" alt="page_image">
+                <a href="/images/projects/hjsystems/hjsystems_07_m.jpg" target="_blank">
+                    <img src="/images/projects/hjsystems/hjsystems_07_m.jpg" alt="page_image">
                 </a>
             </li>
         </ul>
