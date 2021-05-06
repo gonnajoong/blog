@@ -1,0 +1,67 @@
+$close-icon: #{$path-icon}#{'close.png'};
+
+.gj-project-modal-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+
+    &.is-active {
+        display: block;
+    }
+
+    .gj-project-modal-cover {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 720px;
+        height: 800px;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 16px;
+
+
+        .gj-project-modal-top {
+            text-align: right;
+            margin-bottom: 12px;
+            height: 50px;
+            border-bottom: 1px solid #636b6f;
+
+            h3 {
+                position: absolute;
+                height: 50px;
+                left: 50%;
+                top: 16px;
+                transform: translateX(-50%);
+                line-height: 50px;
+            }
+
+            .gj-close {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background-image: url($close-icon);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: transparent;
+            }
+        }
+
+        .gj-project-modal-middle {
+            display: block;
+            height: 680px;
+            overflow: auto;
+            text-align: center;
+
+            span {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

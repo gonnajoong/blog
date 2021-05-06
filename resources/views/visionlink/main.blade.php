@@ -67,34 +67,34 @@
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/visionlink/visionlink_00_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/visionlink/visionlink_00_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/visionlink/visionlink_01_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/visionlink/visionlink_01_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/visionlink/visionlink_02_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/visionlink/visionlink_02_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/visionlink/visionlink_03_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/visionlink/visionlink_03_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/visionlink/visionlink_04_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/visionlink/visionlink_04_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/visionlink/visionlink_05_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/visionlink/visionlink_05_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
         </ul>
     </article>
