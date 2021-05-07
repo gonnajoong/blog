@@ -6,7 +6,7 @@
         </article>
         <article class="gj-project-modal-middle">
             <span id="gjModalImageWrap">
-                <a href="">
+                <a href="" target="_blank">
                     <img src="" alt="">
                 </a>
             </span>

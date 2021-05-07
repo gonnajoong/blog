@@ -27,7 +27,12 @@ $(() => {
     });
 
     imagePcWrap.slick({
-        slidesToShow: 1
+        slidesToShow: 1,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
     });
 
     function scrollDisable(){
@@ -45,6 +50,7 @@ $(() => {
         scrollAble();
         projectModalWrap.removeClass('is-active');
         modalImageWrap.find('img').attr('src', '#');
+        modalImageWrap.find('a').attr('href', '#');
     });
 
     imageMobileWrap.children('li').on('click', function(){
@@ -53,11 +59,13 @@ $(() => {
         let imageSrc = $(this).find('img').attr('src');
 
         modalImageWrap.find('img').attr('src', imageSrc);
+        modalImageWrap.find('a').attr('href', imageSrc);
     });
 
     projectModalClose.on('click', function(){
         scrollAble();
         projectModalWrap.removeClass('is-active');
         modalImageWrap.find('img').attr('src', '#');
+        modalImageWrap.find('a').attr('href', '#');
     });
 });
