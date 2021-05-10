@@ -46,6 +46,7 @@ $close-icon: #{$path-icon}#{'close.png'};
                 background-image: url($close-icon);
                 background-size: cover;
                 background-repeat: no-repeat;
+                background-position: center;
                 background-color: transparent;
             }
         }
@@ -61,6 +62,33 @@ $close-icon: #{$path-icon}#{'close.png'};
                 display: inline-block;
                 width: 100%;
                 height: 100%;
+            }
+        }
+    }
+
+    @include screen(m) {
+        .gj-project-modal-cover {
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+            padding: 8px;
+
+            .gj-project-modal-top {
+                h3 {
+                    top: 9px;
+                }
+
+                .gj-close {
+                    background-size: 34px;
+                }
+            }
+
+            .gj-project-modal-middle {
+                span {
+                    img {
+                        width: 100%;
+                    }
+                }
             }
         }
     }

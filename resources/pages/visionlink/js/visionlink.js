@@ -60,6 +60,7 @@ $(() => {
 
         modalImageWrap.find('img').attr('src', imageSrc);
         modalImageWrap.find('a').attr('href', imageSrc);
+        $('.gj-project-modal-middle').css('height', (projectModalWrap.height() - 150)+'px');
     });
 
     projectModalClose.on('click', function(){
