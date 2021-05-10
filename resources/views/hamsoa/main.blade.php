@@ -29,12 +29,22 @@
                     <img src="/images/projects/hamsoa/hamsoa_01.jpg" alt="page_image">
                 </a>
             </li>
+            <li>
+                <a href="/images/projects/hamsoa/hamsoa_02.jpg" target="_blank">
+                    <img src="/images/projects/hamsoa/hamsoa_02.jpg" alt="page_image">
+                </a>
+            </li>
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/hamsoa/hamsoa_01_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/hamsoa/hamsoa_01_m.jpg" alt="page_image">
-                </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="/images/projects/hamsoa/hamsoa_02_m.jpg" alt="page_image">
+                </span>
             </li>
         </ul>
     </article>

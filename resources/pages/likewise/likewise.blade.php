@@ -11,6 +11,7 @@
 </head>
 <body>
 @include('index.header')
+@include('components.projectModal')
 @include('likewise.main')
 @include('index.footer')
 <!-- inject:js -->

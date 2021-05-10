@@ -52,29 +52,29 @@
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_01_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/hjsystems/hjsystems_01_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_02_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/hjsystems/hjsystems_02_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_03_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/hjsystems/hjsystems_03_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_04_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/hjsystems/hjsystems_04_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/hjsystems/hjsystems_05_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/hjsystems/hjsystems_05_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
         </ul>
     </article>

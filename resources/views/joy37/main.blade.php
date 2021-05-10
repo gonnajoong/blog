@@ -55,39 +55,39 @@
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/joy37/joy37_main_01_m.png" target="_blank">
+                <span>
                     <img src="/images/projects/joy37/joy37_main_01_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/joy37/joy37_main_02_m.png" target="_blank">
+                <span >
                     <img src="/images/projects/joy37/joy37_main_02_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/joy37/joy37_main_03_m.png" target="_blank">
+                <span>
                     <img src="/images/projects/joy37/joy37_main_03_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/joy37/joy37_main_04_m.png" target="_blank">
+                <span>
                     <img src="/images/projects/joy37/joy37_main_04_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/joy37/joy37_main_05_m.png" target="_blank">
+                <span>
                     <img src="/images/projects/joy37/joy37_main_05_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/joy37/joy37_main_06_m.png" target="_blank">
+                <span>
                     <img src="/images/projects/joy37/joy37_main_06_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/joy37/joy37_main_07_m.png" target="_blank">
+                <span>
                     <img src="/images/projects/joy37/joy37_main_07_m.png" alt="page_image">
-                </a>
+                </span>
             </li>
         </ul>
     </article>

@@ -1,6 +1,9 @@
 $hjsystems: #{$path-project}#{'hjsystems/'};
 $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
 
+$left-icon: #{$path-icon}#{'arrow_left.png'};
+$right-icon: #{$path-icon}#{'arrow_right.png'};
+
 #gjProjectWrap {
     position: relative;
     padding-top: 60px;
@@ -79,6 +82,7 @@ $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
         transform: translateX(-50%);
         top: 415px;
         background-color: #fff;
+        z-index: 9;
 
         h2 {
             font-size: 24px;
@@ -103,7 +107,7 @@ $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
         min-height: 200px;
         text-align: center;
         padding: 80px 16px 0;
-
+        background-color: #f4f4f4;
 
         h2 {
             margin-bottom: 42px;
@@ -137,9 +141,66 @@ $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
             max-width: 1200px;
             width: 100%;
             display: none;
+            height: 600px;
+            overflow: hidden;
+            margin-bottom: 60px;
 
             &.mobile-image {
-                max-width: 720px;
+                max-width: 1200px;
+                margin-left: -20px;
+
+                flex-wrap: wrap;
+                &.is-visible {
+                    display: inline-flex;
+                }
+
+                & > li {
+                    position: relative;
+                    width: 25%;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-left: 20px;
+
+                    span {
+                        position: relative;
+                        display: block;
+                        overflow: hidden;
+                        width: 100%;
+                        height: 100%;
+
+                        &::after {
+                            content: "자세히 보기";
+                            position: absolute;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0,0,0,0.5);
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: all .2s ease-in-out;
+                            color: #fff;
+                            font-size: 24px;
+                            cursor: pointer;
+                        }
+
+                        @media (hover: hover) {
+                            &:hover::after, &:hover img {
+                                opacity: 1;
+                                visibility: visible;
+                                transform: scale(1.1);
+                            }
+                        }
+
+                        img {
+                            transition: all .2s ease-in-out;
+                            display: block;
+                        }
+                    }
+                }
             }
 
             &.is-visible {
@@ -154,6 +215,57 @@ $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
                 }
             }
         }
+        //    slick
+        .slick-slider {
+            .slick-arrow {
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .slick-prev, .slick-next {
+                width: 50px;
+                height: 50px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                z-index: 1;
+                &::before {
+                    content: "";
+                }
+            }
+
+            .slick-prev {
+                left: 10px;
+                background-image: url($left-icon);
+            }
+            .slick-next {
+                right: 10px;
+                background-image: url($right-icon);
+            }
+
+            .slick-dots {
+                bottom: 10px;
+
+                li {
+                    &.slick-active button {
+                        background-color: #000;
+                    }
+
+                    button {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        opacity: 0.8;
+                        background-color: #fff;
+
+                        &::before {
+                            content: "";
+                        }
+                    }
+                }
+            }
+        }
     }
 
     @include screen(m) {
@@ -163,7 +275,7 @@ $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
                 visibility: visible;
             }
         }
-        
+
         .gj-project-title {
             width: 290px;
             border-radius: 40px;
@@ -189,7 +301,47 @@ $hjsystems-banner: #{$hjsystems}#{'hjsystems_main_banner.jpg'};
         }
 
         .gj-project-content {
-            padding: 80px 8px 0;
+            padding: 100px 8px 0;
+
+            .gj-image-wrap {
+                height: 200px;
+
+                &.mobile-image {
+                    height: 100%;
+                    margin: 0;
+                    li {
+                        padding: 0;
+                        width: 100%;
+                    }
+                }
+            }
+
+            //    slick
+            .slick-slider {
+                .slick-arrow {
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                .slick-prev, .slick-next {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .slick-dots {
+                    bottom: 0;
+
+                    li {
+                        margin: 0 2px;
+
+                        button {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

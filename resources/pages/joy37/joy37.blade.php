@@ -11,6 +11,7 @@
 </head>
 <body>
 @include('index.header')
+@include('components.projectModal')
 @include('joy37.main')
 @include('index.footer')
 <!-- inject:js -->

@@ -32,9 +32,9 @@
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/castelbajac/castelbajac_01_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/castelbajac/castelbajac_01_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
         </ul>
     </article>

@@ -141,6 +141,9 @@ $right-icon: #{$path-icon}#{'arrow_right.png'};
             max-width: 1200px;
             width: 100%;
             display: none;
+            height: 600px;
+            overflow: hidden;
+            margin-bottom: 60px;
 
             &.mobile-image {
                 max-width: 1200px;
@@ -194,6 +197,7 @@ $right-icon: #{$path-icon}#{'arrow_right.png'};
 
                         img {
                             transition: all .2s ease-in-out;
+                            display: block;
                         }
                     }
                 }
@@ -299,11 +303,16 @@ $right-icon: #{$path-icon}#{'arrow_right.png'};
         .gj-project-content {
             padding: 100px 8px 0;
 
-            .gj-image-wrap.mobile-image {
-                margin: 0;
-                li {
-                    padding: 0;
-                    width: 100%;
+            .gj-image-wrap {
+                height: 200px;
+
+                &.mobile-image {
+                    height: 100%;
+                    margin: 0;
+                    li {
+                        padding: 0;
+                        width: 100%;
+                    }
                 }
             }
 

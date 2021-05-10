@@ -32,14 +32,14 @@
         </ul>
         <ul id="imageMobileWrap" class="gj-image-wrap mobile-image">
             <li>
-                <a href="/images/projects/archivepke/archivepke_01_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/archivepke/archivepke_01_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
             <li>
-                <a href="/images/projects/archivepke/archivepke_02_m.jpg" target="_blank">
+                <span>
                     <img src="/images/projects/archivepke/archivepke_02_m.jpg" alt="page_image">
-                </a>
+                </span>
             </li>
         </ul>
     </article>
