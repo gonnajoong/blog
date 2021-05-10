@@ -60,7 +60,11 @@ $(() => {
 
         modalImageWrap.find('img').attr('src', imageSrc);
         modalImageWrap.find('a').attr('href', imageSrc);
-        $('.gj-project-modal-middle').css('height', (projectModalWrap.height() - 150)+'px');
+        if($(window).width() < 768){
+            $('.gj-project-modal-middle').css('height', (projectModalWrap.height() - 150)+'px');
+        } else {
+            $('.gj-project-modal-middle').css('height', '680px');
+        }
     });
 
     projectModalClose.on('click', function(){
