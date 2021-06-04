@@ -41,6 +41,10 @@ return [
             'project_name' => 'HJ SYSTEMS',
             'src' => '/images/projects/hjsystems.jpg',
             'page' => '/hj-systems'
+        ], [
+            'project_name' => '안녕, 한강',
+            'src' => '#',
+            'page' => '/hello-river'
         ]]
     ],
     'skills' => [
@@ -137,4 +141,11 @@ return [
         'project_period' => '2021.01 - 2021.03',
         'project_role' => '퍼블리싱 및 CURD API 연동',
         'project_page' => 'http://www.hjsystems.co.kr/'
+    ], [
+    'hello-river' => [
+        'project_name' => '안녕, 한강',
+        'project_period' => '2021.05',
+        'project_role' => '개발, 디자인, 기획',
+        'project_page' => 'https://play.google.com/store/apps/details?id=com.weather_api'
+    ]  
     ]];
