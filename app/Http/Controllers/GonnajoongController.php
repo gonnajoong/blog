@@ -239,8 +239,8 @@ class GonnajoongController extends Controller
                     preg_match('/Opera Mini/i', $userAgent) ||
                     preg_match('/IEMobile/i', $userAgent));
 
-                return view('helloHangang', [
-                    'project' => Config('metadata.helloHangang'),
+                return view('hellohangang', [
+                    'project' => Config('metadata.hellohangang'),
 
                     'isMobile' => $isMobile,
                 ]);
