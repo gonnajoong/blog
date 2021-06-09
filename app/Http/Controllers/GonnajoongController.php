@@ -226,4 +226,24 @@ class GonnajoongController extends Controller
             ]);
         }
     }
+
+    public function helloHangang(Request $req) {
+            if (preg_match('/MSIE\s(?P<v>\d+)/i', @$_SERVER['HTTP_USER_AGENT'], $B) && $B['v'] <= 8) {
+                return view('old');
+            } else {
+
+                $userAgent = $req->header('User-Agent');
+                $isMobile = (preg_match('/Android/i', $userAgent) ||
+                    preg_match('/BlackBerry/i', $userAgent) ||
+                    preg_match('/iPhone|iPad|iPod/i', $userAgent) ||
+                    preg_match('/Opera Mini/i', $userAgent) ||
+                    preg_match('/IEMobile/i', $userAgent));
+
+                return view('helloHangang', [
+                    'project' => Config('metadata.helloHangang'),
+
+                    'isMobile' => $isMobile,
+                ]);
+            }
+        }
 }

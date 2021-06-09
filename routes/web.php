@@ -23,4 +23,4 @@ Route::get('/archivepke', 'GonnajoongController@archivepke');
 Route::get('/odg', 'GonnajoongController@odg');
 Route::get('/likewise', 'GonnajoongController@likewise');
 Route::get('/hj-systems', 'GonnajoongController@hjsystems');
-
+Route::get('/hello-hangang', 'GonnajoongController@helloHangang');

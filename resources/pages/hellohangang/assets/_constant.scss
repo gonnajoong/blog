@@ -1,0 +1,21 @@
+// path
+$path-etc: '/etc/';
+$path-image: '/images/';
+$path-icon: #{$path-image}#{'icons/'};
+$path-common: #{$path-image}#{'commons/'};
+$path-project: #{$path-image}#{'projects/'};
+
+// color
+$white: white;
+
+// z-index
+$z-index-header: 10;
+
+// screen
+$max-m: 767px;
+$min-t: 768px;
+$max-t: 1219px;
+$min-pc: 1220px;
+
+// container
+$container: 1200px;
